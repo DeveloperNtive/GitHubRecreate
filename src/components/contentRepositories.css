@@ -1,0 +1,100 @@
+.content-card {
+  margin: 10px 100px 0px 100px;
+  border-radius: 20px;
+  padding-left: 60px;
+}
+
+.content-elements {
+  display: flex;
+}
+
+.div-img {
+  align-self: center;
+  flex: 1;
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+
+.div-body {
+  align-self: center;
+  flex: 1;
+  text-align: left;
+}
+
+.div-content-buttons {
+  display: flex;
+  flex: 1;
+  padding-right: 50px;
+  justify-content: flex-end;
+}
+
+.content-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.pre-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .content-elements {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-content-buttons {
+    display: inline-block;
+    flex: 1;
+    flex-direction: column;
+    padding: 0px 10px 15px 10px;
+    width: 100%;
+  }
+  .content-card {
+    margin: 10px 100px 0px 100px;
+    border-radius: 20px;
+    padding-left: 0px !important;
+  }
+  .div-body {
+    align-self: center;
+    flex: 1;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-elements {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-content-buttons {
+    display: inline-block;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+  }
+  .content-card {
+    margin: 10px 100px 0px 100px;
+    border-radius: 20px;
+    padding-left: 0px !important;
+  }
+  .div-body {
+    align-self: center;
+    flex: 1;
+    text-align: center;
+    width: 60%;
+  }
+}
